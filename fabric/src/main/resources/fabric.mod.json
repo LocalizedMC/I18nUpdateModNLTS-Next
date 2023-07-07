@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "i18nupdatemod",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "i18nupdatemod",
+  "description": "i18nupdatemod",
   "authors": [
     "Me!"
   ],
@@ -16,16 +16,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "org.localmc.tools.i18n_nlts.fabric.I18nUpdateModFabric"
     ]
   },
-  "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
-  ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.16.5",
-    "architectury": ">=1.32.66"
+    "minecraft": ">=1.20",
+    "architectury": "*"
   }
 }

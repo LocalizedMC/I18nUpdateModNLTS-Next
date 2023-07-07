@@ -4,32 +4,32 @@ loaderVersion = "[36,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "examplemod"
+modId = "i18nupdatemod"
 version = "${version}"
-displayName = "Example Mod"
+displayName = "i18nupdatemod"
 authors = "Me!"
 description = '''
 This is an example description! Tell everyone what your mod is about!
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.i18nupdatemod]]
 modId = "forge"
 mandatory = true
 versionRange = "[36,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.i18nupdatemod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.5,)"
+versionRange = "[1.20,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.i18nupdatemod]]
 modId = "architectury"
 mandatory = true
-versionRange = "[1.32.66,)"
+versionRange = "[9,)"
 ordering = "AFTER"
 side = "BOTH"

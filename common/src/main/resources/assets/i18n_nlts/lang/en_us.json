@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.i18nupdatemod.title": "I18nUpdateMod 配置界面",
+  "text.autoconfig.i18nupdatemod.option.downloadLink": "汉化资源包下载链接",
+  "text.autoconfig.i18nupdatemod.option.resourcePackName": "汉化资源包文件名（不包括后缀名）",
+  "text.autoconfig.i18nupdatemod.option.md5Name": "MD5校验文件文件名（不包括后缀名）"
+}
