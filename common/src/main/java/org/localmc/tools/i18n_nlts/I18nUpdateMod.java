@@ -35,6 +35,8 @@ public class I18nUpdateMod {
     public static final Path OPTIONS_FILE = Paths.get(MinecraftClient.getInstance().runDirectory.toString(), "options.txt");
     
     public static void init() {
+        ConfigUtil.setConfigScreen();
+
         if (ConfigUtil.getConfig().autoSwitchLanguage) {
             MinecraftClient.getInstance().options.language = "zh_cn";
         }
