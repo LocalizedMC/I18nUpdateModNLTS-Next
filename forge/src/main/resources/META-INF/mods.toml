@@ -1,15 +1,14 @@
 modLoader = "javafml"
 loaderVersion = "[36,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+license = "AGPLv3"
 
 [[mods]]
 modId = "i18nupdatemod"
 version = "${version}"
-displayName = "i18nupdatemod"
-authors = "Me!"
+displayName = "I18nUpdateMod NLTS"
+authors = "LocalizedMC, TexTrue"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+I18nUpdateMod NLTS
 '''
 #logoFile = ""
 
@@ -31,5 +30,12 @@ side = "BOTH"
 modId = "architectury"
 mandatory = true
 versionRange = "[9,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.i18nupdatemod]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[11,)"
 ordering = "AFTER"
 side = "BOTH"

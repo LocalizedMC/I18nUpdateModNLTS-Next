@@ -2,26 +2,29 @@
   "schemaVersion": 1,
   "id": "i18nupdatemod",
   "version": "${version}",
-  "name": "i18nupdatemod",
-  "description": "i18nupdatemod",
+  "name": "I18nUpdateMod NLTS",
+  "description": "I18nUpdateMod NLTS",
   "authors": [
-    "Me!"
+    "LocalizedMC, TexTrue"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "AGPLv3",
   "environment": "*",
   "entrypoints": {
     "main": [
       "org.localmc.tools.i18n_nlts.fabric.I18nUpdateModFabric"
+    ],
+    "client": [
+      "org.localmc.tools.i18n_nlts.fabric.I18nUpdateModClientFabric"
     ]
   },
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.20",
-    "architectury": "*"
+    "architectury": "*",
+    "cloth-config": "*"
   }
 }
